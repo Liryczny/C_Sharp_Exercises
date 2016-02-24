@@ -1,7 +1,7 @@
 ﻿using System;
-    class Program
+    public class EnterAndDisplayYourDetails
     {
-        static void Main()
+        public static void Main(string [] args)
         {
             string _name = "", _surname = "", _address = "", _nationality;
             int _age;
@@ -23,9 +23,6 @@
             Console.WriteLine("");
 
             Console.WriteLine("Name: {0}\nSurname: {1}\nAge: {2}\nAddress: {3}\nNationality: {4}",_name,_surname,_age,_address,_nationality);
-
-
-          
         }
     }
 
